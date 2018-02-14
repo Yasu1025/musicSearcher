@@ -1,7 +1,7 @@
 import React from 'react'
-import testText from './test.json'
-import './stylesheet/style.css'
-import './stylesheet/style.scss'
+import testText from '../test.json'
+import '../stylesheet/style.css'
+import '../stylesheet/style.scss'
 
 export const test1 = (
         <h1 className="test1">
