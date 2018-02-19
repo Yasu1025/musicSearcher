@@ -1,10 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { test1, test2 } from './components/lib.js'
+import { MyComponent, MyComponent2 } from './components/component.js'
 
 render(
-    <div>
-        {test1}{test2}
-    </div>,
+    <MyComponent2 greeting = {"First Component"} />,
     document.getElementById('react-container')
 )
